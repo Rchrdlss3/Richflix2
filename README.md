@@ -2,7 +2,7 @@
 ### (README WIP)
 [![My Skills](https://skillicons.dev/icons?i=react,nodejs,js,html,css)](https://skillicons.dev)
 
-[For Demo Click Here]()
+[Click for live site!](https://rchrdlss3.github.io/Richflix2/)
 
 <img width="2048" height="1536" alt="ss1" src="https://github.com/user-attachments/assets/b2f41653-1ec8-4516-a266-19d30346b7de" />
 
