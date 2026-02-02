@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Richflix2/static/css/main.4b5b3489.css",
+    "main.js": "/Richflix2/static/js/main.8c402c82.js",
+    "static/js/42.e617faa9.chunk.js": "/Richflix2/static/js/42.e617faa9.chunk.js",
+    "static/css/442.fce3775b.chunk.css": "/Richflix2/static/css/442.fce3775b.chunk.css",
+    "static/js/442.bd3f281c.chunk.js": "/Richflix2/static/js/442.bd3f281c.chunk.js",
+    "static/css/347.7a8323ac.chunk.css": "/Richflix2/static/css/347.7a8323ac.chunk.css",
+    "static/js/347.8f1bbd1c.chunk.js": "/Richflix2/static/js/347.8f1bbd1c.chunk.js",
+    "static/media/Maven Pro Bold.ttf": "/Richflix2/static/media/Maven Pro Bold.a66dfd3c0ff9120f1424.ttf",
+    "index.html": "/Richflix2/index.html",
+    "main.4b5b3489.css.map": "/Richflix2/static/css/main.4b5b3489.css.map",
+    "main.8c402c82.js.map": "/Richflix2/static/js/main.8c402c82.js.map",
+    "42.e617faa9.chunk.js.map": "/Richflix2/static/js/42.e617faa9.chunk.js.map",
+    "442.fce3775b.chunk.css.map": "/Richflix2/static/css/442.fce3775b.chunk.css.map",
+    "442.bd3f281c.chunk.js.map": "/Richflix2/static/js/442.bd3f281c.chunk.js.map",
+    "347.7a8323ac.chunk.css.map": "/Richflix2/static/css/347.7a8323ac.chunk.css.map",
+    "347.8f1bbd1c.chunk.js.map": "/Richflix2/static/js/347.8f1bbd1c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b5b3489.css",
+    "static/js/main.8c402c82.js"
+  ]
+}
