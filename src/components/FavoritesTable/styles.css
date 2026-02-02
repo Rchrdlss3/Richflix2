@@ -1,0 +1,43 @@
+table {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.favorite-anime-table {
+    height: 700px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;   
+    overflow-x: scroll;
+}
+th {
+    padding: 5px;
+    text-align: center;
+    width: 25%;
+}
+tr {
+    max-height: 10px;
+    height: 10px;
+    text-align: center;
+}
+
+td {
+    max-height: 10px;
+    padding: 10px;
+    max-width: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.image-heart {
+  aspect-ratio: 1;
+  object-fit: cover;
+  clip-path: shape(
+    from 50% 91%, 
+    line to 90% 50%, 
+    arc to 50% 9% of 1%, 
+    arc to 10% 50% of 1%
+  ); 
+}
