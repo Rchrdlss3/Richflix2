@@ -1,12 +1,11 @@
 import { useContext } from "react";
-import { FavoriteAnimesContext, ThemeContext } from "../../App";
+import { FavoriteAnimesContext } from "../../App";
 import { FavoriteTableRow } from "./FavoriteTableRow";
 import { FavoriteTableHeader } from "./FavoriteTableHeader";
 import './styles.css'
 
 export const FavoritesTableComponent = () => {
     const [favAnimes,setFavAnimes] = useContext(FavoriteAnimesContext);
-    const [theme,setThene] = useContext(ThemeContext);
 
     return (
         <>
@@ -14,7 +13,7 @@ export const FavoritesTableComponent = () => {
         <table>
             <FavoriteTableHeader />
             <tbody>
-            {Object.values(favAnimes).map((anime,idx) => {return <FavoriteTableRow anime = {anime} index = {idx}/>})}
+            {favAnimes !== null ? Object.values(favAnimes).map((anime,idx) => {return <FavoriteTableRow anime = {anime} index = {idx}/>}): null}
             </tbody>
         </table>
         </div>

@@ -6,11 +6,11 @@ export const FavoriteButtonComponent = ({anime}) => {
     const [hover,setHover] = useState(false);
     const [theme,setTheme] = useContext(ThemeContext);
     const [favoriteAnimes,setFavoriteAnimes] = useContext(FavoriteAnimesContext);
-    const [favorited,setFavorited] = useState(Object.hasOwn(anime,anime.mal_id));
+    const [favorited,setFavorited] = useState(false);
 
     useEffect(()=>{
-        if (anime.mal_id){
-        setFavorited(favoriteAnimes[anime.mal_id] != undefined)            
+        if (favoriteAnimes != null) {
+        setFavorited(favoriteAnimes[anime.mal_id] != undefined)             
         }
     },[anime]);
 
