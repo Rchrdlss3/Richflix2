@@ -9,7 +9,9 @@ export const FavoriteButtonComponent = ({anime}) => {
     const [favorited,setFavorited] = useState(Object.hasOwn(anime,anime.mal_id));
 
     useEffect(()=>{
-        setFavorited(favoriteAnimes[anime.mal_id] != undefined)
+        if (anime.mal_id){
+        setFavorited(favoriteAnimes[anime.mal_id] != undefined)            
+        }
     },[anime]);
 
     return (
